@@ -1,0 +1,17 @@
+App\Entity\Machine:
+      properties:
+          brand:
+            - NotNull: ~
+            - NotBlank: ~
+          model:
+            - NotNull: ~
+            - NotBlank: ~
+          manufacturer:
+            - NotNull: ~
+            - NotBlank: ~  
+          price:
+            - NotNull: ~
+            - NotBlank: ~ 
+          images:
+            - NotNull: ~
+            - NotBlank: ~ 

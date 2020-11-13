@@ -1,0 +1,446 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Biel Díaz\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@babel/preset-env',
+1 verbose cli   '@babel/preset-react',
+1 verbose cli   '@babel/plugin-proposal-class-properties'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.19.0
+4 verbose npm-session e84345c172f23510
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-react 161ms (from cache)
+8 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-class-properties 164ms (from cache)
+9 silly pacote range manifest for @babel/plugin-proposal-class-properties@^7.12.1 fetched in 166ms
+10 http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-env 172ms (from cache)
+11 http fetch GET 200 https://registry.npmjs.org/@babel/preset-react/-/preset-react-7.12.5.tgz 14ms (from cache)
+12 http fetch GET 200 https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.12.1.tgz 13ms (from cache)
+13 silly pacote range manifest for @babel/preset-react@^7.12.5 fetched in 189ms
+14 silly pacote tag manifest for @babel/preset-env@latest fetched in 199ms
+15 timing stage:loadCurrentTree Completed in 1291ms
+16 silly install loadIdealTree
+17 silly install cloneCurrentTreeToIdealTree
+18 timing stage:loadIdealTree:cloneCurrentTree Completed in 10ms
+19 silly install loadShrinkwrap
+20 timing stage:rollbackFailedOptional Completed in 1ms
+21 timing stage:runTopLevelLifecycles Completed in 1433ms
+22 silly saveTree prubaTecnicaBielDiaz
+22 silly saveTree +-- @babel/plugin-proposal-class-properties@7.12.1
+22 silly saveTree | +-- @babel/helper-create-class-features-plugin@7.12.1
+22 silly saveTree | | +-- @babel/helper-function-name@7.10.4
+22 silly saveTree | | | +-- @babel/helper-get-function-arity@7.10.4
+22 silly saveTree | | | | `-- @babel/types@7.12.6
+22 silly saveTree | | | |   +-- @babel/helper-validator-identifier@7.10.4
+22 silly saveTree | | | |   `-- lodash@4.17.20
+22 silly saveTree | | | +-- @babel/template@7.10.4
+22 silly saveTree | | | | +-- @babel/code-frame@7.10.4
+22 silly saveTree | | | | | `-- @babel/highlight@7.10.4
+22 silly saveTree | | | | |   +-- chalk@2.4.2
+22 silly saveTree | | | | |   | +-- ansi-styles@3.2.1
+22 silly saveTree | | | | |   | | `-- color-convert@1.9.3
+22 silly saveTree | | | | |   | |   `-- color-name@1.1.3
+22 silly saveTree | | | | |   | `-- escape-string-regexp@1.0.5
+22 silly saveTree | | | | |   `-- js-tokens@4.0.0
+22 silly saveTree | | | | `-- @babel/parser@7.12.5
+22 silly saveTree | | | `-- @babel/types@7.12.6
+22 silly saveTree | | +-- @babel/helper-member-expression-to-functions@7.12.1
+22 silly saveTree | | +-- @babel/helper-optimise-call-expression@7.10.4
+22 silly saveTree | | +-- @babel/helper-replace-supers@7.12.5
+22 silly saveTree | | | `-- @babel/traverse@7.12.5
+22 silly saveTree | | |   +-- @babel/generator@7.12.5
+22 silly saveTree | | |   | `-- jsesc@2.5.2
+22 silly saveTree | | |   +-- @babel/helper-split-export-declaration@7.11.0
+22 silly saveTree | | |   +-- debug@4.2.0
+22 silly saveTree | | |   | `-- ms@2.1.2
+22 silly saveTree | | |   `-- globals@11.12.0
+22 silly saveTree | | `-- @babel/helper-split-export-declaration@7.11.0
+22 silly saveTree | `-- @babel/helper-plugin-utils@7.10.4
+22 silly saveTree +-- @babel/plugin-syntax-class-properties@7.12.1
+22 silly saveTree +-- @babel/preset-react@7.12.5
+22 silly saveTree | +-- @babel/plugin-transform-react-display-name@7.12.1
+22 silly saveTree | +-- @babel/plugin-transform-react-jsx-development@7.12.5
+22 silly saveTree | | +-- @babel/helper-builder-react-jsx-experimental@7.12.4
+22 silly saveTree | | | +-- @babel/helper-annotate-as-pure@7.10.4
+22 silly saveTree | | | `-- @babel/helper-module-imports@7.12.5
+22 silly saveTree | | `-- @babel/plugin-syntax-jsx@7.12.1
+22 silly saveTree | +-- @babel/plugin-transform-react-jsx-self@7.12.1
+22 silly saveTree | +-- @babel/plugin-transform-react-jsx-source@7.12.1
+22 silly saveTree | +-- @babel/plugin-transform-react-jsx@7.12.5
+22 silly saveTree | | `-- @babel/helper-builder-react-jsx@7.10.4
+22 silly saveTree | `-- @babel/plugin-transform-react-pure-annotations@7.12.1
+22 silly saveTree +-- @symfony/webpack-encore@0.31.0
+22 silly saveTree | +-- @babel/core@7.12.3
+22 silly saveTree | | +-- @babel/helper-module-transforms@7.12.1
+22 silly saveTree | | | `-- @babel/helper-simple-access@7.12.1
+22 silly saveTree | | +-- @babel/helpers@7.12.5
+22 silly saveTree | | +-- convert-source-map@1.7.0
+22 silly saveTree | | +-- gensync@1.0.0-beta.2
+22 silly saveTree | | +-- json5@2.1.3
+22 silly saveTree | | | `-- minimist@1.2.5
+22 silly saveTree | | +-- resolve@1.19.0
+22 silly saveTree | | | +-- is-core-module@2.1.0
+22 silly saveTree | | | | `-- has@1.0.3
+22 silly saveTree | | | |   `-- function-bind@1.1.1
+22 silly saveTree | | | `-- path-parse@1.0.6
+22 silly saveTree | | `-- semver@5.7.1
+22 silly saveTree | +-- @babel/plugin-syntax-dynamic-import@7.8.3
+22 silly saveTree | +-- @babel/preset-env@7.12.1
+22 silly saveTree | | +-- @babel/compat-data@7.12.5
+22 silly saveTree | | +-- @babel/helper-compilation-targets@7.12.5
+22 silly saveTree | | | +-- @babel/helper-validator-option@7.12.1
+22 silly saveTree | | | +-- browserslist@4.14.7
+22 silly saveTree | | | | +-- caniuse-lite@1.0.30001157
+22 silly saveTree | | | | +-- colorette@1.2.1
+22 silly saveTree | | | | +-- electron-to-chromium@1.3.592
+22 silly saveTree | | | | +-- escalade@3.1.1
+22 silly saveTree | | | | `-- node-releases@1.1.66
+22 silly saveTree | | | `-- semver@5.7.1
+22 silly saveTree | | +-- @babel/helper-validator-option@7.12.1
+22 silly saveTree | | +-- @babel/plugin-proposal-async-generator-functions@7.12.1
+22 silly saveTree | | | +-- @babel/helper-remap-async-to-generator@7.12.1
+22 silly saveTree | | | | `-- @babel/helper-wrap-function@7.12.3
+22 silly saveTree | | | `-- @babel/plugin-syntax-async-generators@7.8.4
+22 silly saveTree | | +-- @babel/plugin-proposal-dynamic-import@7.12.1
+22 silly saveTree | | +-- @babel/plugin-proposal-export-namespace-from@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-export-namespace-from@7.8.3
+22 silly saveTree | | +-- @babel/plugin-proposal-json-strings@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-json-strings@7.8.3
+22 silly saveTree | | +-- @babel/plugin-proposal-logical-assignment-operators@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-logical-assignment-operators@7.10.4
+22 silly saveTree | | +-- @babel/plugin-proposal-nullish-coalescing-operator@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+22 silly saveTree | | +-- @babel/plugin-proposal-numeric-separator@7.12.5
+22 silly saveTree | | | `-- @babel/plugin-syntax-numeric-separator@7.10.4
+22 silly saveTree | | +-- @babel/plugin-proposal-object-rest-spread@7.12.1
+22 silly saveTree | | | +-- @babel/plugin-syntax-object-rest-spread@7.8.3
+22 silly saveTree | | | `-- @babel/plugin-transform-parameters@7.12.1
+22 silly saveTree | | +-- @babel/plugin-proposal-optional-catch-binding@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-optional-catch-binding@7.8.3
+22 silly saveTree | | +-- @babel/plugin-proposal-optional-chaining@7.12.1
+22 silly saveTree | | | +-- @babel/helper-skip-transparent-expression-wrappers@7.12.1
+22 silly saveTree | | | `-- @babel/plugin-syntax-optional-chaining@7.8.3
+22 silly saveTree | | +-- @babel/plugin-proposal-private-methods@7.12.1
+22 silly saveTree | | +-- @babel/plugin-proposal-unicode-property-regex@7.12.1
+22 silly saveTree | | | `-- @babel/helper-create-regexp-features-plugin@7.12.1
+22 silly saveTree | | |   +-- @babel/helper-regex@7.10.5
+22 silly saveTree | | |   `-- regexpu-core@4.7.1
+22 silly saveTree | | |     +-- regenerate-unicode-properties@8.2.0
+22 silly saveTree | | |     | `-- regenerate@1.4.2
+22 silly saveTree | | |     +-- regenerate@1.4.2
+22 silly saveTree | | |     +-- regjsgen@0.5.2
+22 silly saveTree | | |     `-- regjsparser@0.6.4
+22 silly saveTree | | |       `-- jsesc@0.5.0
+22 silly saveTree | | +-- @babel/plugin-syntax-async-generators@7.8.4
+22 silly saveTree | | +-- @babel/plugin-syntax-export-namespace-from@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-json-strings@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-logical-assignment-operators@7.10.4
+22 silly saveTree | | +-- @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-numeric-separator@7.10.4
+22 silly saveTree | | +-- @babel/plugin-syntax-object-rest-spread@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-optional-catch-binding@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-optional-chaining@7.8.3
+22 silly saveTree | | +-- @babel/plugin-syntax-top-level-await@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-arrow-functions@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-async-to-generator@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-block-scoped-functions@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-block-scoping@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-classes@7.12.1
+22 silly saveTree | | | `-- @babel/helper-define-map@7.10.5
+22 silly saveTree | | +-- @babel/plugin-transform-computed-properties@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-destructuring@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-dotall-regex@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-duplicate-keys@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-exponentiation-operator@7.12.1
+22 silly saveTree | | | `-- @babel/helper-builder-binary-assignment-operator-visitor@7.10.4
+22 silly saveTree | | |   `-- @babel/helper-explode-assignable-expression@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-for-of@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-function-name@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-literals@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-member-expression-literals@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-modules-amd@7.12.1
+22 silly saveTree | | | `-- babel-plugin-dynamic-import-node@2.3.3
+22 silly saveTree | | |   `-- object.assign@4.1.2
+22 silly saveTree | | |     +-- call-bind@1.0.0
+22 silly saveTree | | |     | `-- get-intrinsic@1.0.1
+22 silly saveTree | | |     |   `-- has-symbols@1.0.1
+22 silly saveTree | | |     +-- define-properties@1.1.3
+22 silly saveTree | | |     | `-- object-keys@1.1.1
+22 silly saveTree | | |     +-- has-symbols@1.0.1
+22 silly saveTree | | |     `-- object-keys@1.1.1
+22 silly saveTree | | +-- @babel/plugin-transform-modules-commonjs@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-modules-systemjs@7.12.1
+22 silly saveTree | | | `-- @babel/helper-hoist-variables@7.10.4
+22 silly saveTree | | +-- @babel/plugin-transform-modules-umd@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-named-capturing-groups-regex@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-new-target@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-object-super@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-parameters@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-property-literals@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-regenerator@7.12.1
+22 silly saveTree | | | `-- regenerator-transform@0.14.5
+22 silly saveTree | | |   `-- @babel/runtime@7.12.5
+22 silly saveTree | | |     `-- regenerator-runtime@0.13.7
+22 silly saveTree | | +-- @babel/plugin-transform-reserved-words@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-shorthand-properties@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-spread@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-sticky-regex@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-template-literals@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-typeof-symbol@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-unicode-escapes@7.12.1
+22 silly saveTree | | +-- @babel/plugin-transform-unicode-regex@7.12.1
+22 silly saveTree | | +-- @babel/preset-modules@0.1.4
+22 silly saveTree | | | `-- esutils@2.0.3
+22 silly saveTree | | +-- core-js-compat@3.7.0
+22 silly saveTree | | | `-- semver@7.0.0
+22 silly saveTree | | `-- semver@5.7.1
+22 silly saveTree | +-- assets-webpack-plugin@5.1.2
+22 silly saveTree | | +-- camelcase@6.2.0
+22 silly saveTree | | +-- escape-string-regexp@4.0.0
+22 silly saveTree | | `-- mkdirp@1.0.4
+22 silly saveTree | +-- babel-loader@8.2.1
+22 silly saveTree | | +-- find-cache-dir@2.1.0
+22 silly saveTree | | | +-- commondir@1.0.1
+22 silly saveTree | | | +-- make-dir@2.1.0
+22 silly saveTree | | | | +-- pify@4.0.1
+22 silly saveTree | | | | `-- semver@5.7.1
+22 silly saveTree | | | `-- pkg-dir@3.0.0
+22 silly saveTree | | |   `-- find-up@3.0.0
+22 silly saveTree | | |     `-- locate-path@3.0.0
+22 silly saveTree | | |       +-- p-locate@3.0.0
+22 silly saveTree | | |       | `-- p-limit@2.3.0
+22 silly saveTree | | |       |   `-- p-try@2.2.0
+22 silly saveTree | | |       `-- path-exists@3.0.0
+22 silly saveTree | | +-- loader-utils@1.4.0
+22 silly saveTree | | | +-- big.js@5.2.2
+22 silly saveTree | | | +-- emojis-list@3.0.0
+22 silly saveTree | | | `-- json5@1.0.1
+22 silly saveTree | | +-- make-dir@2.1.0
+22 silly saveTree | | `-- pify@4.0.1
+22 silly saveTree | +-- chalk@4.1.0
+22 silly saveTree | | +-- ansi-styles@4.3.0
+22 silly saveTree | | | `-- color-convert@2.0.1
+22 silly saveTree | | |   `-- color-name@1.1.4
+22 silly saveTree | | `-- supports-color@7.2.0
+22 silly saveTree | |   `-- has-flag@4.0.0
+22 silly saveTree | +-- clean-webpack-plugin@3.0.0
+22 silly saveTree | | +-- @types/webpack@4.41.24
+22 silly saveTree | | | +-- @types/anymatch@1.3.1
+22 silly saveTree | | | +-- @types/node@14.14.7
+22 silly saveTree | | | +-- @types/tapable@1.0.6
+22 silly saveTree | | | +-- @types/uglify-js@3.11.1
+22 silly saveTree | | | | `-- source-map@0.6.1
+22 silly saveTree | | | +-- @types/webpack-sources@2.0.0
+22 silly saveTree | | | | +-- @types/source-list-map@0.1.2
+22 silly saveTree | | | | `-- source-map@0.7.3
+22 silly saveTree | | | `-- source-map@0.6.1
+22 silly saveTree | | `-- del@4.1.1
+22 silly saveTree | |   +-- @types/glob@7.1.3
+22 silly saveTree | |   | `-- @types/minimatch@3.0.3
+22 silly saveTree | |   +-- globby@6.1.0
+22 silly saveTree | |   | +-- array-union@1.0.2
+22 silly saveTree | |   | | `-- array-uniq@1.0.3
+22 silly saveTree | |   | +-- glob@7.1.6
+22 silly saveTree | |   | | +-- fs.realpath@1.0.0
+22 silly saveTree | |   | | +-- inflight@1.0.6
+22 silly saveTree | |   | | | `-- once@1.4.0
+22 silly saveTree | |   | | +-- inherits@2.0.4
+22 silly saveTree | |   | | +-- minimatch@3.0.4
+22 silly saveTree | |   | | | `-- brace-expansion@1.1.11
+22 silly saveTree | |   | | |   +-- balanced-match@1.0.0
+22 silly saveTree | |   | | |   `-- concat-map@0.0.1
+22 silly saveTree | |   | | +-- once@1.4.0
+22 silly saveTree | |   | | `-- path-is-absolute@1.0.1
+22 silly saveTree | |   | +-- object-assign@4.1.1
+22 silly saveTree | |   | +-- pify@2.3.0
+22 silly saveTree | |   | `-- pinkie-promise@2.0.1
+22 silly saveTree | |   |   `-- pinkie@2.0.4
+22 silly saveTree | |   +-- is-path-cwd@2.2.0
+22 silly saveTree | |   +-- is-path-in-cwd@2.1.0
+22 silly saveTree | |   | `-- is-path-inside@2.1.0
+22 silly saveTree | |   |   `-- path-is-inside@1.0.2
+22 silly saveTree | |   `-- p-map@2.1.0
+22 silly saveTree | +-- css-loader@3.6.0
+22 silly saveTree | | +-- camelcase@5.3.1
+22 silly saveTree | | +-- cssesc@3.0.0
+22 silly saveTree | | +-- icss-utils@4.1.1
+22 silly saveTree | | | `-- postcss@7.0.35
+22 silly saveTree | | |   +-- chalk@2.4.2
+22 silly saveTree | | |   | `-- supports-color@5.5.0
+22 silly saveTree | | |   |   `-- has-flag@3.0.0
+22 silly saveTree | | |   +-- source-map@0.6.1
+22 silly saveTree | | |   `-- supports-color@6.1.0
+22 silly saveTree | | +-- loader-utils@1.4.0
+22 silly saveTree | | | `-- json5@1.0.1
+22 silly saveTree | | +-- normalize-path@3.0.0
+22 silly saveTree | | +-- postcss-modules-extract-imports@2.0.0
+22 silly saveTree | | +-- postcss-modules-local-by-default@3.0.3
+22 silly saveTree | | | +-- postcss-selector-parser@6.0.4
+22 silly saveTree | | | | `-- indexes-of@1.0.1
+22 silly saveTree | | | `-- postcss-value-parser@4.1.0
+22 silly saveTree | | +-- postcss-modules-scope@2.2.0
+22 silly saveTree | | | `-- postcss-selector-parser@6.0.4
+22 silly saveTree | | +-- postcss-modules-values@3.0.0
+22 silly saveTree | | +-- postcss-value-parser@4.1.0
+22 silly saveTree | | +-- postcss@7.0.35
+22 silly saveTree | | `-- semver@6.3.0
+22 silly saveTree | +-- fast-levenshtein@2.0.6
+22 silly saveTree | +-- file-loader@6.2.0
+22 silly saveTree | | +-- loader-utils@2.0.0
+22 silly saveTree | | `-- schema-utils@3.0.0
+22 silly saveTree | |   +-- @types/json-schema@7.0.6
+22 silly saveTree | |   +-- ajv-keywords@3.5.2
+22 silly saveTree | |   `-- ajv@6.12.6
+22 silly saveTree | |     +-- fast-deep-equal@3.1.3
+22 silly saveTree | |     +-- fast-json-stable-stringify@2.1.0
+22 silly saveTree | |     `-- json-schema-traverse@0.4.1
+22 silly saveTree | +-- friendly-errors-webpack-plugin@2.0.0-beta.2
+22 silly saveTree | | +-- chalk@2.4.2
+22 silly saveTree | | `-- error-stack-parser@2.0.6
+22 silly saveTree | +-- loader-utils@2.0.0
+22 silly saveTree | +-- mini-css-extract-plugin@0.4.2
+22 silly saveTree | | +-- loader-utils@1.4.0
+22 silly saveTree | | | `-- json5@1.0.1
+22 silly saveTree | | `-- schema-utils@1.0.0
+22 silly saveTree | |   `-- ajv-errors@1.0.1
+22 silly saveTree | +-- optimize-css-assets-webpack-plugin@5.0.4
+22 silly saveTree | | +-- cssnano@4.1.10
+22 silly saveTree | | | +-- cosmiconfig@5.2.1
+22 silly saveTree | | | | +-- import-fresh@2.0.0
+22 silly saveTree | | | | | `-- caller-path@2.0.0
+22 silly saveTree | | | | |   `-- caller-callsite@2.0.0
+22 silly saveTree | | | | |     `-- callsites@2.0.0
+22 silly saveTree | | | | +-- is-directory@0.3.1
+22 silly saveTree | | | | +-- js-yaml@3.14.0
+22 silly saveTree | | | | | +-- argparse@1.0.10
+22 silly saveTree | | | | | `-- esprima@4.0.1
+22 silly saveTree | | | | `-- parse-json@4.0.0
+22 silly saveTree | | | |   +-- error-ex@1.3.2
+22 silly saveTree | | | |   | `-- is-arrayish@0.2.1
+22 silly saveTree | | | |   `-- json-parse-better-errors@1.0.2
+22 silly saveTree | | | +-- cssnano-preset-default@4.0.7
+22 silly saveTree | | | | +-- css-declaration-sorter@4.0.1
+22 silly saveTree | | | | +-- cssnano-util-raw-cache@4.0.1
+22 silly saveTree | | | | +-- postcss-calc@7.0.5
+22 silly saveTree | | | | | `-- postcss-selector-parser@6.0.4
+22 silly saveTree | | | | +-- postcss-colormin@4.0.3
+22 silly saveTree | | | | | +-- color@3.1.3
+22 silly saveTree | | | | | | `-- color-string@1.5.4
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-convert-values@4.0.1
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-discard-comments@4.0.2
+22 silly saveTree | | | | +-- postcss-discard-duplicates@4.0.2
+22 silly saveTree | | | | +-- postcss-discard-empty@4.0.1
+22 silly saveTree | | | | +-- postcss-discard-overridden@4.0.1
+22 silly saveTree | | | | +-- postcss-merge-longhand@4.0.11
+22 silly saveTree | | | | | +-- css-color-names@0.0.4
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-merge-rules@4.0.3
+22 silly saveTree | | | | | +-- caniuse-api@3.0.0
+22 silly saveTree | | | | | | +-- lodash.memoize@4.1.2
+22 silly saveTree | | | | | | `-- lodash.uniq@4.5.0
+22 silly saveTree | | | | | +-- cssnano-util-same-parent@4.0.1
+22 silly saveTree | | | | | `-- postcss-selector-parser@3.1.2
+22 silly saveTree | | | | |   `-- dot-prop@5.3.0
+22 silly saveTree | | | | |     `-- is-obj@2.0.0
+22 silly saveTree | | | | +-- postcss-minify-font-values@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-minify-gradients@4.0.2
+22 silly saveTree | | | | | +-- cssnano-util-get-arguments@4.0.0
+22 silly saveTree | | | | | +-- is-color-stop@1.1.0
+22 silly saveTree | | | | | | +-- hex-color-regex@1.1.0
+22 silly saveTree | | | | | | +-- hsl-regex@1.0.0
+22 silly saveTree | | | | | | `-- hsla-regex@1.0.0
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-minify-params@4.0.2
+22 silly saveTree | | | | | +-- alphanum-sort@1.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-minify-selectors@4.0.2
+22 silly saveTree | | | | | `-- postcss-selector-parser@3.1.2
+22 silly saveTree | | | | +-- postcss-normalize-charset@4.0.1
+22 silly saveTree | | | | +-- postcss-normalize-display-values@4.0.2
+22 silly saveTree | | | | | +-- cssnano-util-get-match@4.0.0
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-positions@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-repeat-style@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-string@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-timing-functions@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-unicode@4.0.1
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-url@4.0.1
+22 silly saveTree | | | | | +-- is-absolute-url@2.1.0
+22 silly saveTree | | | | | +-- normalize-url@3.3.0
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-normalize-whitespace@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-ordered-values@4.1.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-reduce-initial@4.0.3
+22 silly saveTree | | | | +-- postcss-reduce-transforms@4.0.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | +-- postcss-svgo@4.0.2
+22 silly saveTree | | | | | +-- is-svg@3.0.0
+22 silly saveTree | | | | | | `-- html-comment-regex@1.1.2
+22 silly saveTree | | | | | `-- postcss-value-parser@3.3.1
+22 silly saveTree | | | | `-- postcss-unique-selectors@4.0.1
+22 silly saveTree | | | `-- is-resolvable@1.1.0
+22 silly saveTree | | `-- last-call-webpack-plugin@3.0.0
+22 silly saveTree | +-- pkg-up@3.1.0
+22 silly saveTree | `-- pretty-error@2.1.2
+22 silly saveTree |   `-- renderkid@2.0.4
+22 silly saveTree |     +-- css-select@1.2.0
+22 silly saveTree |     | +-- boolbase@1.0.0
+22 silly saveTree |     | +-- css-what@2.1.3
+22 silly saveTree |     | +-- domutils@1.5.1
+22 silly saveTree |     | | +-- dom-serializer@0.2.2
+22 silly saveTree |     | | | +-- domelementtype@2.0.2
+22 silly saveTree |     | | | `-- entities@2.1.0
+22 silly saveTree |     | | `-- domelementtype@1.3.1
+22 silly saveTree |     | `-- nth-check@1.0.2
+22 silly saveTree |     +-- dom-converter@0.2.0
+22 silly saveTree |     +-- htmlparser2@3.10.1
+22 silly saveTree |     | +-- domhandler@2.4.2
+22 silly saveTree |     | +-- domutils@1.7.0
+22 silly saveTree |     | +-- entities@1.1.2
+22 silly saveTree |     | `-- readable-stream@3.6.0
+22 silly saveTree |     `-- strip-ansi@3.0.1
+22 silly saveTree |       `-- ansi-regex@2.1.1
+22 silly saveTree +-- core-js@3.7.0
+22 silly saveTree +-- prop-types@15.7.2
+22 silly saveTree | +-- loose-envify@1.4.0
+22 silly saveTree | `-- react-is@16.13.1
+22 silly saveTree +-- react-dom@17.0.1
+22 silly saveTree +-- react@17.0.1
+22 silly saveTree `-- regenerator-runtime@0.13.7
+23 verbose stack TypeError: Cannot read property 'match' of undefined
+23 verbose stack     at tarballToVersion (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\lib\install\inflate-shrinkwrap.js:87:20)
+23 verbose stack     at inflatableChild (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\lib\install\inflate-shrinkwrap.js:99:22)
+23 verbose stack     at C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\lib\install\inflate-shrinkwrap.js:55:12
+23 verbose stack     at tryCatcher (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+23 verbose stack     at Object.gotValue (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\reduce.js:155:18)
+23 verbose stack     at Object.gotAccum (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\reduce.js:144:25)
+23 verbose stack     at Object.tryCatcher (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+23 verbose stack     at Promise._settlePromiseFromHandler (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:517:31)
+23 verbose stack     at Promise._settlePromise (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:574:18)
+23 verbose stack     at Promise._settlePromise0 (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:619:10)
+23 verbose stack     at Promise._settlePromises (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:699:18)
+23 verbose stack     at _drainQueueStep (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\async.js:138:12)
+23 verbose stack     at _drainQueue (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+23 verbose stack     at Async._drainQueues (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+23 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Biel Díaz\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\async.js:17:14)
+23 verbose stack     at processImmediate (internal/timers.js:461:21)
+24 verbose cwd C:\xampp\htdocs\prubaTecnicaBielDiaz
+25 verbose Windows_NT 10.0.18363
+26 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Biel Díaz\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "@babel/preset-env" "@babel/preset-react" "@babel/plugin-proposal-class-properties"
+27 verbose node v12.19.0
+28 verbose npm  v6.13.4
+29 error Cannot read property 'match' of undefined
+30 verbose exit [ 1, true ]

@@ -1,0 +1,14 @@
+App\Entity\Machine:
+    attributes:
+      id:
+        groups: ['machine']
+      brand:
+        groups: ['machine']
+      model:
+        groups: ['machine']
+      manufacturer:
+        groups: ['machine']
+      price:
+        groups: ['machine']
+      images:
+        groups: ['machine']
